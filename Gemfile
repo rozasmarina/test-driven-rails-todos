@@ -18,8 +18,9 @@ group :development, :test do
   gem 'rspec-rails', '~> 6.0', '>= 6.0.1'
 end
 
-group :development, :test do
+group :test do
   gem 'capybara', '~> 3.38'
+  gem 'database_cleaner'
 end
 
 group :development do
